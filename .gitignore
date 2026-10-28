@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Datasets and large data directories
+data/raw/
+data/processed/
+data/yolo/
+data/classification/
+runs/
+*.zip
+*.tar.gz
+
+# Model weights and artifacts (keep configs and lightweight models, ignore large weights)
+*.pth
+*.pt
+*.onnx
+models/weights/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
