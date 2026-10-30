@@ -1,0 +1,65 @@
+[
+  {
+    "id": "BIRADS-US-001",
+    "category": "BI-RADS 1 - Negative",
+    "feature_match": ["normal", "no lesion", "symmetrical tissue"],
+    "source": "ACR BI-RADS Atlas 5th Edition (Ultrasound)",
+    "title": "Normal Ultrasound Examination",
+    "guideline": "No masses, architectural distortion, or suspicious calcifications are detected. Routine age-appropriate screening is recommended.",
+    "action": "Routine screening mammography/ultrasound in 12 months."
+  },
+  {
+    "id": "BIRADS-US-002",
+    "category": "BI-RADS 2 - Benign Finding",
+    "feature_match": ["benign", "simple cyst", "well-circumscribed", "oval", "parallel"],
+    "source": "ACR BI-RADS Atlas 5th Edition (Ultrasound)",
+    "title": "Definitively Benign Lesion",
+    "guideline": "Findings include simple anechoic cyst with posterior acoustic enhancement or typical benign intramammary lymph node. Zero risk of malignancy (<0%).",
+    "action": "Routine annual screening. No intervention or biopsy needed."
+  },
+  {
+    "id": "BIRADS-US-003",
+    "category": "BI-RADS 3 - Probably Benign",
+    "feature_match": ["benign", "fibroadenoma", "oval", "circumscribed", "hypoechoic", "parallel"],
+    "source": "ACR BI-RADS Atlas 5th Edition (Ultrasound)",
+    "title": "Probably Benign Lesion (<2% Malignancy Risk)",
+    "guideline": "Solid mass with circumscribed margins, oval shape, and parallel orientation (wider than tall), most commonly fibroadenoma. Malignancy probability is <= 2%.",
+    "action": "Short-interval 6-month unilateral follow-up ultrasound to demonstrate stability over 24-36 months."
+  },
+  {
+    "id": "BIRADS-US-004A",
+    "category": "BI-RADS 4A - Low Suspicion for Malignancy",
+    "feature_match": ["suspicious", "microlobulated", "mild irregularity", "indeterminate"],
+    "source": "ACR BI-RADS Atlas 5th Edition / NCCN Breast Guidelines",
+    "title": "Low Suspicion of Malignancy (>2% to <=10%)",
+    "guideline": "Lesion with low-to-moderate suspicion, such as an atypical complicated cyst or probable fibroadenoma with partially obscured or gently microlobulated margins.",
+    "action": "Ultrasound-guided core needle biopsy (CNB) recommended; patient counseling."
+  },
+  {
+    "id": "BIRADS-US-004B",
+    "category": "BI-RADS 4B - Moderate Suspicion for Malignancy",
+    "feature_match": ["malignant", "indistinct margin", "heterogeneous", "non-parallel"],
+    "source": "ACR BI-RADS Atlas 5th Edition / NCCN Guidelines",
+    "title": "Moderate Suspicion of Malignancy (>10% to <=50%)",
+    "guideline": "Solid lesion with indistinct margins or non-parallel orientation without definite spiculation. Malignancy risk spans 10% to 50%.",
+    "action": "Core needle biopsy is strongly recommended with pathology concordance review."
+  },
+  {
+    "id": "BIRADS-US-004C",
+    "category": "BI-RADS 4C - High Suspicion for Malignancy",
+    "feature_match": ["malignant", "irregular shape", "angular margins", "acoustic shadowing"],
+    "source": "ACR BI-RADS Atlas 5th Edition (Ultrasound)",
+    "title": "High Suspicion of Malignancy (>50% to <95%)",
+    "guideline": "Irregular hypoechoic mass with angular margins and posterior acoustic shadowing, highly concerning for invasive ductal carcinoma (IDC).",
+    "action": "Immediate core needle biopsy and surgical/oncology multidisciplinary consultation."
+  },
+  {
+    "id": "BIRADS-US-005",
+    "category": "BI-RADS 5 - Highly Suggestive of Malignancy",
+    "feature_match": ["malignant", "spiculated", "taller-than-wide", "acoustic shadowing", "irregular"],
+    "source": "ACR BI-RADS Atlas 5th Edition / Society of Breast Imaging",
+    "title": "Classic Malignant Presentation (>=95% Probability)",
+    "guideline": "Classic presentation: Spiculated margins, taller-than-wide (non-parallel) orientation, hypoechoic with acoustic shadowing, microcalcifications. Malignancy risk exceeds 95%.",
+    "action": "Urgent tissue biopsy and referral to surgical oncology for staging and treatment planning."
+  }
+]

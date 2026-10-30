@@ -1,0 +1,11 @@
+.git
+.github
+node_modules
+frontend/node_modules
+frontend/dist
+backend/data/busi_processed
+backend/__pycache__
+backend/app/**/__pycache__
+backend/reports/*.pdf
+.env
+*.log
